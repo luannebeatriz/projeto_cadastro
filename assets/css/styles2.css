@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&family=Open+Sans:wght@300;400;500;600&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(140deg, #060646f6, #b7b7ff93);
+}
+.container {
+  width: 32%;
+  height: 80vh;
+  display: flex;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.418);
+}
+
+.main-login {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(140deg, #b7b7ff93, #060646f6);
+  width: 100%;
+  justify-content: center;
+}
+.card-login {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1rem 0;
+  flex-direction: column;
+}
+
+.textfield {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.1rem;
+}
+
+.main-login h1::after {
+  content: "";
+  display: block;
+  width: 3.5rem;
+  height: 0.3rem;
+  background-color: #000000;
+  margin: 0 auto;
+  position: absolute;
+  border-radius: 10px;
+}
+
+.input-box {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.1rem;
+}
+
+.input-box input {
+  margin: 0.6rem 0;
+  padding: 0.8rem 1.2rem;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 1px 1px 6px #0000005d;
+  font-size: 0.8rem;
+}
+
+/* .input-box input:hover {
+  background-color: #d8d7ff75;
+} */
+
+.input-box input:focus-visible {
+  outline: 1.5px solid #fff;
+}
+
+.input-box label {
+  font-size: 0.8rem;
+  font-weight: 530;
+  color: #fff;
+  letter-spacing: 0.5px;
+}
+
+.btn-login button {
+  width: 100%;
+  margin-top: 0.3rem;
+  border: none;
+  background-color: #908bf7;
+  padding: 0.62rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-login button:hover {
+  background-color: #000000f1;
+}
+
+.btn-login button a {
+  text-decoration: none;
+  font-size: 0.93rem;
+  font-weight: 500;
+  color: #fff;
+}
+
+.link-pass {
+  /* text-decoration: none; */
+  color: #fff;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.tittle {
+  padding-bottom: 20px;
+  max-width: 50%;
+}
